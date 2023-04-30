@@ -25,7 +25,6 @@ class ChiApp:
         for hole in self.holes :
             x.append(hole.x)
             y.append(hole.y)
-            data.append([hole.x, hole.y])
             if hole.filled:
                 colors.append('red')
             else:
